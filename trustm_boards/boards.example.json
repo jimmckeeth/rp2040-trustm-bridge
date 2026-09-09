@@ -1,0 +1,37 @@
+{
+  "_comment": [
+    "Shape of the inventory identify.py writes to boards.json.",
+    "boards.json is gitignored: it holds real coprocessor UIDs and USB serial",
+    "numbers, which are unique hardware identifiers. The values below are",
+    "placeholders - the bytes that are identical on every Trust M V1 are kept",
+    "so the layout is readable, and the batch and wafer fields are masked."
+  ],
+  "boards": [
+    {
+      "label": "example board",
+      "recorded": "2026-01-01 00:00:00",
+      "optiga": {
+        "cim_identifier": "CD",
+        "platform_identifier": "16",
+        "model_identifier": "33",
+        "rom_mask_id": "8401",
+        "chip_type": "001C00010000",
+        "batch_number": "XXXXXXXXXXXXXXXX",
+        "wafer_x": "XX",
+        "wafer_y": "XX",
+        "firmware_identifier": "80101071",
+        "build_number": "0809",
+        "revision": "V1",
+        "firmware_version": "1.30.809",
+        "uid": "CD16338401001C0001XXXXXXXXXXXXXXXXXXXXXXXX801010710809"
+      },
+      "agreeing_reads": 3,
+      "last_seen_host": {
+        "usb_serial": "XXXXXXXXXXXXXXXX",
+        "fqbn": "rp2040:rp2040:adafruit_trinkeyrp2040qt",
+        "port": "/dev/ttyACM0"
+      },
+      "hosts_seen": ["XXXXXXXXXXXXXXXX"]
+    }
+  ]
+}

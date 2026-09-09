@@ -1,0 +1,7 @@
+.build/
+__pycache__/
+*.pyc
+
+# Board inventory: real coprocessor UIDs and USB serial numbers.
+# identify.py writes it; see boards.example.json for the shape.
+trustm_boards/boards.json
