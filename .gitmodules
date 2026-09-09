@@ -1,18 +1,6 @@
-[submodule "archive/subs/optiga-trust-m"]
-	path = archive/subs/optiga-trust-m
-	url = https://github.com/Infineon/optiga-trust-m
 [submodule "subs/optiga-trust-m-overview"]
 	path = subs/optiga-trust-m-overview
 	url = https://github.com/Infineon/optiga-trust-m-overview
-[submodule "archive/subs/linux-optiga-trust-m"]
-	path = archive/subs/linux-optiga-trust-m
-	url = https://github.com/Infineon/linux-optiga-trust-m
-[submodule "archive/subs/optiga-trust-m-openssl"]
-	path = archive/subs/optiga-trust-m-openssl
-	url = https://github.com/Infineon/optiga-trust-m-openssl
-[submodule "archive/subs/pkcs11-optiga-trust-m"]
-	path = archive/subs/pkcs11-optiga-trust-m
-	url = https://github.com/Infineon/pkcs11-optiga-trust-m
 [submodule "subs/arduino-optiga-trust-m"]
 	path = subs/arduino-optiga-trust-m
 	url = https://github.com/Infineon/arduino-optiga-trust-m

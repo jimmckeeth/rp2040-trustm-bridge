@@ -1486,6 +1486,7 @@ static void dispatch(char *text)
   else if (!strcmp(cmd, "RSAGEN")){ cur_cmd = "RSAGEN"; cmd_rsagen(rest, args); }
   else if (!strcmp(cmd, "RSASIGN")){ cur_cmd = "RSASIGN"; cmd_rsasign(rest, args); }
   else if (!strcmp(cmd, "HELP") ||
+           !strcmp(cmd, "COMMANDS") ||
            !strcmp(cmd, "?"))     { cur_cmd = "HELP";  cmd_help(); }
   else {
     /* The offending token is whatever arrived - possibly a kilobyte of line
